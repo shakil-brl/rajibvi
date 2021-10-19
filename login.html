@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Graphic Resource</title>
+</head>
+
+<body>
+    <section id="login" class="d-flex align-items-center pb-5">
+        <div class="login-panel">
+            <img class="logo" src="img/orange-logo.svg" alt="">
+            <div class="login-section">
+                <ul class="nav nav-tabs justify-content-center justify-content-stretch" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Login</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">Sign Up</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel">
+                        <div>
+                            <div class="top-text ">
+                                <small>with your social network</small>
+                            </div>
+                            <div class="social-login">
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="google">
+                                        <img src="img/icon/google-g.svg" alt="">
+                                    </a>
+                                    <span style="width: 20px;"></span>
+                                    <a href="#" class="fb">
+                                        <img src="img/icon/facebook.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hr d-flex justify-content-between">
+                                <hr>
+                                <span>Or</span>
+                                <hr>
+                            </div>
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">
+                                            <img src="img/icon/user.svg" alt="">
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">
+                                            <img src="img/icon/lock.svg" alt="">
+                                        </span>
+                                    </div>
+                                    <input type="password" class="form-control br-0 password" placeholder="Password">
+                                    <div class="input-group-append">
+                                        <button type="button" class="btn input-group-text password-view password-icon">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="mb-3 forget d-flex justify-content-between">
+                                    <div class="form-group form-check text-left">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Remember</label>
+                                    </div>
+                                    <a href="#">Forget your password?</a>
+                                </div>
+                                <div class="mb-3">
+                                    <button class="btn submit-btn" type="submit">Login</button>
+                                </div>
+                            </form>
+                            <div>
+                                Not a Member? <a href="#" class="login-link">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel">
+                            <div>
+                                <div class="top-text ">
+                                    <small>with your social network</small>
+                                </div>
+                                <div class="social-login">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#" class="google">
+                                            <img src="img/icon/google-g.svg" alt="">
+                                        </a>
+                                        <span style="width: 20px;"></span>
+                                        <a href="#" class="fb">
+                                            <img src="img/icon/facebook.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="hr d-flex justify-content-between">
+                                    <hr>
+                                    <span>Or</span>
+                                    <hr>
+                                </div>
+                                <form action="#">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <img src="img/icon/user.svg" alt="">
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Username">
+                                    </div>
+
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <img src="img/icon/email.svg" alt="">
+                                            </span>
+                                        </div>
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <img src="img/icon/lock.svg" alt="">
+                                            </span>
+                                        </div>
+                                        <input type="password" class="form-control br-0 password"
+                                            placeholder="Password">
+                                        <div class="input-group-append">
+                                            <button type="button"
+                                                class="btn input-group-text password-view password-icon">
+                                                <i class="far fa-eye"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <button class="btn submit-btn" type="submit">Submit</button>
+                                    </div>
+                                </form>
+                                <div>
+                                    Already have an account? <a href="#" class="login-link">Log In</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
